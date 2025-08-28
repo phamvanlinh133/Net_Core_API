@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Net_Core_API/PTPMQL25-26/DemoMVC/Views/BMI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQk1JXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Net_Core_API/PTPMQL25-26/DemoMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Net_Core_API/PTPMQL25-26/DemoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Net_Core_API/PTPMQL25-26/DemoMVC/Views/Toan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Net_Core_API/PTPMQL25-26/DemoMVC/Views/_ViewImports.cshtml]

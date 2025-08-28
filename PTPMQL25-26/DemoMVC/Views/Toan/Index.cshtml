@@ -1,0 +1,36 @@
+@model DemoMVC.Models.ToanModel
+@{
+    ViewData["Title"] = "tính tổng,hiệu,tích,thương";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label>Số thứ nhất:</label>
+        <input asp-for="SoThuNhat" />
+    </div>
+
+    <div>
+        <label>Số thứ hai:</label>
+        <input asp-for="SoThuHai" />
+    </div>
+
+    <div>
+        <label>Chọn phép toán:</label>
+        <select asp-for="PhepToan">
+            <option value="Tong">Tổng (+)</option>
+            <option value="Hieu">Hiệu (-)</option>
+            <option value="Tich">Tích (×)</option>
+            <option value="Thuong">Thương (÷)</option>
+        </select>
+    </div>
+
+    <br />
+    <button type="submit">Tính</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <p><b>@ViewBag.Message</b></p>
+}
