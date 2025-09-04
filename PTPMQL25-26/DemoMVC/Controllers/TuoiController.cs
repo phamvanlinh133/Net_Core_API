@@ -1,19 +1,24 @@
 using DemoMVC.Models;
 namespace DemoMVC.Controllers
 {
+
     using Microsoft.AspNetCore.Mvc;
-    public class PersonController : Controller
+
+    public class TuoiController : Controller
     {
         public IActionResult Index()
         {
+            ViewBag.Message = "Hello";
             return View();
         }
+
         [HttpPost]
-        public IActionResult Index(Person ps)
+        public IActionResult Index(Tuoi ps)
         {
-            string strOutput = "Xin chao " + ps.PersonId + "-" + ps.FullName + "-" + ps.Address;
-            ViewBag.Message = strOutput;
+            ViewBag.Message = " " + ps.FullName + " " + ps.Age;
             return View();
         }
+
+
     }
 }
